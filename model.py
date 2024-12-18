@@ -3,12 +3,14 @@ import tensorflow as tf
 from tensorflow.keras.models import load_model
 import numpy as np
 from PIL import Image
+from tensorflow.keras.applications import MobileNetV2
+model = MobileNetV2(weights="imagenet")
 
 app = Flask(__name__)
 
 # Load pre-trained tree detection model
 # Replace 'tree_detection_model.h5' with the path to your trained model
-model = load_model("tree_detection_model.h5")
+
 
 def preprocess_image(image):
     """
