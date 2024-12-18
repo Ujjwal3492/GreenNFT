@@ -1,16 +1,14 @@
 
-
-import './App.css'
-import TextExtractionComponent from './components/Image_data'
-import ImageVerificationComponent from './components/Images_auth'
+import Hero from './components/hero/Hero.jsx'
+import Navbar from './components/navbar/Navbar'
 
 function App() {
   
 
   return (
     <>
-    <ImageVerificationComponent/>
-       <TextExtractionComponent/>
+    <Navbar/>
+    <Hero/>
     </>
   )
 }
