@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ 
+  body{
+
+    background-image: url('https://img.freepik.com/free-photo/close-up-picture-hand-watering-sapling-plant_1150-28357.jpg?t=st=1734629994~exp=1734633594~hmac=c91117cf57ca7e095682b115676bd7c85a1fff72763220b34f044a1d638ddb80&w=996');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+  
